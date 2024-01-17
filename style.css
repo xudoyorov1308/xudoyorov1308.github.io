@@ -1,327 +1,256 @@
-* {
-    list-style: none;
+header {
+    background-image: url(./images/header_bg\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+header img {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+    justify-content: space-between;
 }
 
 body {
     margin: 0px;
 }
 
-/*---------------------start header --------*/
-
-nav {
+.secnddiv {
     display: flex;
-    max-width: 80%;
-    margin: auto;
-    justify-content: space-between;
+    gap: 30px;
+    margin-top: 20px;
 }
 
-nav img {
-    width: 206px;
-    height: 101.758px;
-    background: url(<path-to-image>), rgb(253, 253, 253) -41.463px -5.653px / 138.5% 135.556% no-repeat;
-}
-
-span {
-    color: #FA4A0C
-}
-
-ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-ul li {
-    padding: 14px;
-    flex-wrap: wrap;
-}
-
-/*----------------start second ----------*/
-
-.second {
-    padding-top: 73px;
-}
-
-.ultimate {
-    background-image: url(./images/Rectangle\ 48.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+nav p {
+    color: white;
+    margin-bottom: 187px;
+    margin-top: 20px;
 }
 
 .second p {
-    color: #F6F6F6;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.buttons {
-    display: flex;
-    max-width: 80%;
-    margin: auto;
-}
-
-.buttons .button_1 {
-    display: flex;
-    width: 236px;
-    padding: 16px 0px;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
-    background: #FA4A0C;
-    box-shadow: 0px 10px 30px 0px rgba(183, 50, 39, 0.20);
-    border: none;
-    color: var(--Light-text, #FFF);
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.buttons .button_2 {
-    display: flex;
-    width: 236px;
-    padding: 16px 0px;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 30px;
-    border: 1px solid #a29b9b;
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 700;
-    letter-spacing: 0.1px;
+    color: white;
 }
 
 .second h1 {
     color: #FFF;
-    text-align: center;
-    font-family: Poppins;
-    font-size: 58px;
-    font-weight: 700;
-    flex-wrap: wrap;
-}
-
-.images {
-    display: grid;
-    grid-template-columns: auto auto;
-    max-width: 80%;
-    margin: auto;
-    margin-top: 50px;
-}
-
-.images .img1 {
-    width: 299px;
-    height: 586px;
-}
-
-.images .img2 {
-    width: 285px;
-    height: 531px;
-}
-
-.fit {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-}
-
-.fit img {
-    width: 100%;
-}
-
-.textes_p1 {
-    color: #FA4A0C;
-}
-
-.secondwork_1h1 {
-    text-align: center;
-}
-
-.secondwork hr {
-    width: 884px;
-    height: 3px;
-    background: #E4E4E4;
-    margin-top: 168px;
-    flex-wrap: wrap;
-}
-
-.secondwork_1h1 {
-    margin-top: 72px;
-    flex-wrap: wrap;
-}
-
-p {
-    flex-wrap: wrap;
-}
-
-h1 {
-    flex-wrap: wrap;
-}
-
-.fet {
-    display: grid;
-    grid-template-columns: auto auto;
-    align-items: center;
-    max-width: 80%;
-    margin: auto;
-}
-
-.fet img {
-    width: 100%;
-}
-
-
-.final_owner {
-    display: grid;
-    grid-template-columns: auto auto;
-    max-width: 80%;
-    align-items: center;
-}
-
-
-.final_owner img {
-    width: 100%;
-}
-
-
-/*---------------------start second --------*/
-
-
-/*---------------------finish second --------*/
-
-
-
-
-
-/*---------------------start final --------*/
-
-.final{
-    background-image: url(./images/Rectangle\ 47.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.in_final h2{
-    padding-top: 145px;
-    color: var(--Light-text, #FFF);
-    text-align: center;
     font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 57px;
-    letter-spacing: 0.2px;
-}
-.in_final p{
-    color: #FFF;
-    text-align: center;
-    font-family: Montserrat;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 38px; /* 158.333% */
-    letter-spacing: 0.2px;
-}
-.buttns{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    text-align: center;
-    gap: 34px;
-    max-width: 1000px;
-    margin: auto;
-    padding-bottom: 133px;
+    font-size: 72px;
+    font-weight: 900;
 }
 
-
-.buttns_button3 {
-    display: flex;
-    padding: 18px 31px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    background: #FA4A0C;
+button {
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #68BF3C;
     border: none;
-}
-.buttns_button4{
-    display: flex;
-    padding: 16px 45px;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    border-radius: 10px;
-    border: 1px solid var(--Light-background, #7c7979);
+    color: white;
 }
 
-/*---------------------finish second --------*/
-.fianlly{
-    display: flex;
+.second button {
+    margin-bottom: 256px;
+}
+
+.second {
     max-width: 80%;
     margin: auto;
-    justify-content: space-between;
-    margin-top: 84px;
+}
+
+.nextwork {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: auto;
+}
+
+.nametotti p {
+    color: #BDBDBD;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nametotti h3 {
+    color: #68BF3C;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.totti {
+    display: flex;
     flex-wrap: wrap;
 }
-.icons{
- margin-top: 30px;
+
+/*---------------------------------------------------- start menu --------*/
+.menu {
+    max-width: 80%;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 150px;
 }
 
-@media screen and (max-width: 768px) {
-    .images {
-        display: grid;
-        grid-template-columns: auto;
-    }
-    nav ul li{
-        margin-right: 50px;
+.about {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.about_div1 img {
+    width: 100%;
+}
+
+.menu h2 {
+    color: #68CD16;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.menu p {
+    color: #666;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.menu h3 {
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.about_div3 {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+span {
+    color: #A6A6A6;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*---------------------------------------------------- finish menu --------*/
+/*---------------------------------------------------- start finalwork --------*/
+
+.finalwork {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 80%;
+    margin: auto;
+    gap: 30px;
+    margin-bottom: 91px;
+}
+
+.finalwork_div1 {
+    text-align: center;
+}
+
+.finalwork_div2 {
+    text-align: center;
+}
+
+.finalwork_div3 {
+    text-align: center;
+}
+
+.finalwork img {
+    width: 100%;
+}
+
+.finalwork p {
+    flex-wrap: wrap;
+    color: #A6A6A6;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*---------------------------------------------------- finish finalwork --------*/
+/*---------------------------------------------------- start finally--------*/
+.finally {
+    background-color: black;
+
+}
+
+.finally p {
+    margin-top: 41px;
+    color: white;
+}
+
+.like_nv {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    max-width: 80%;
+    max-width: 80%;
+    margin: auto;
+}
+.like_nv button{
+   margin-top: 30px;
+}
+.button_p {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 60px;
+}
+.finally_bye{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/*---------------------------------------------------- finish finally --------*/
+@media screen and (max-width: 700px) {
+    .second h1 {
+        font-size: 50px;
+        width: 400px;
     }
 
-    .fit {
-        display: grid;
-        grid-template-columns: auto;
-    }
-
-    .fit img {
+    .nextwork_img {
         width: 100%;
-        margin-left: 35px;
     }
 
-    .textes {
-        text-align: center;
-        margin-bottom: 140px;
+    .about {
+        display: grid;
+        grid-template-columns: auto auto;
     }
 
-    .fet {
+    .finalwork {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+   
+}
+
+@media screen and (max-width: 462px) {
+    .second h1 {
+        width: 30px;
+    }
+
+    header nav button {
+        position: absolute;
+        top: 50px;
+        right: 0px;
+    }
+
+    .about {
         display: grid;
         grid-template-columns: auto;
     }
 
-    .fet img {
-        width: 100%;
-        margin-left: 35px;
-    }
-
-    .secondwork hr {
-        width: 300px;
-    }
-
-    .secondwork_1h1 {
-        text-align: center;
-    }
-
-    .final_owner img {
-        width: 100%;
-        margin-left: 35px;
-    }
-
-    .final_owner {
+    .finalwork {
         display: grid;
         grid-template-columns: auto;
     }
-    .buttns{
-        margin-left: 30px;
-    }
-   .icons{
-    margin-bottom: 20px;
-    margin-left: 50px;
-   }
 }
